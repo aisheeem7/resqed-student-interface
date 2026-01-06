@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
     --background: 216 28% 7%;
@@ -38,7 +34,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* ResQEd Module Colors */
+    /* Module Colors */
     --fire-safety: 14 91% 58%;
     --first-aid: 142 76% 36%;
     --emergency: 0 91% 58%;
